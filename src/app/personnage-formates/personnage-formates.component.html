@@ -1,0 +1,15 @@
+
+  <div class="card" style="width: 20rem;">
+    <img [src]="personages.image" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title text-center">{{personages.nom}}</h5>
+      <div class="form-check py-2">
+        <input class="form-check-input" type="checkbox" [checked]="personages.majeur" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Majeur - nombre d'abonnes  : {{personages.nb}}
+        </label>
+      </div>
+      <a href="#" class="btn btn-primary text-center"><i class="bi bi-pen"></i> S'abonner</a>
+    </div>
+  </div>
+
